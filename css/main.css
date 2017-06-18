@@ -1,0 +1,163 @@
+@@font-face {
+  font-family: 'Oleo Script';
+  src: url('https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+
+body{
+  margin: 0;
+
+}
+
+header{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header{
+background-image: url('../img/header-background.jpg');
+width: 1280px;
+height: 560px;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: ;
+}
+
+.header-wrapper{
+  background-size: contain;
+  border-color: blue;
+  z-index: 1;
+}
+
+.logo{
+  background-image: url('../img/logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin: 60px;
+  transform: translateX(220%);
+  filter: invert(100%);
+}
+.main-heading{
+  position: relative;
+  font-family: 'Poiret One';
+  font-size: 80px;
+  font-weight: 400;
+  margin: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px black;
+}
+
+.subheader-msg{
+  position: relative;
+  font-family: 'Poiret One';
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px black;
+}
+
+main{
+
+}
+
+
+.single-img-card{
+list-style: none;
+display: inline-flex;
+align-content: center;
+justify-content: space-between;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 2px 2px 0px 0px grey;
+
+}
+
+#left-img{
+  background-image: url('../img/left-img.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+
+}
+
+#middle-img{
+  background-image: url('../img/middle-img.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+#right-img{
+  background-image: url('../img/right-img.jpg');
+  background-position: center;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.callout-wrapper{
+  padding: 25px;
+  background-color: #3A996F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-text{
+  position: relative;
+  font-family: 'Poiret One';
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 -2px black;
+  text-align: center;
+}
+
+.contact-wrapper{
+  font-family: 'Oleo Script';
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-msg{
+  font-family: 'Poiret One';
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+.contact-phone{
+  margin: 10px;
+}
+
+.contact-email{
+  margin: 10px;
+}
+
+.footer-wrapper{
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  height: 40px;
+}
+
+.site-footer-text{
+  font-family: 'Poiret One';
+  text-align: center;
+  background-color: black;
+  color: white;
+}
